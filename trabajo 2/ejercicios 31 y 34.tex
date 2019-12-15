@@ -1,0 +1,48 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{makeidx}
+\usepackage{graphicx}
+\usepackage{lmodern}
+\usepackage{kpfonts}
+\usepackage{fourier}
+\begin{document}
+
+31.- Un fabricante afirma que a lo mas el 2\% de todas las piezas producidas son defectuosas. Al parecer esa informacion es exagerada por lo que se selecciona una muestra aleatorea de 400 piezas. Si la proporcion muestral de defectuosos es mayor que el 3\% se rechaza la afirmacion, en caso contrario se acepta la afirmacion.\\
+\\
+a) ¿Cual es la probabilidad de rechazar la afirmacion cuando realmente el 2\% de todas las piezas producidas son defectuosas?\\
+b) ¿Cual es la probabilidad de aceptar la afirmacion cuando realmente el 4\%  de todas las piezas son defectuosas?\\
+\\
+SOLUCION:\\
+a) $ P[ P\geqslant 0.03 / p = 0.02] \\
+P[Z \geq \dfrac{0.01}{0.07}] \\
+P[Z\geqslant 1.43] \\
+1- P[Z\leqslant 1.43 \\
+respt = 0.076 $ \\
+\\
+b)$ P[ P\geqslant 0.03 / p = 0.04] \\
+P[Z \geq \dfrac{-0.01}{0.009797}] \\ 
+P[Z\leqslant -1.02] \\
+\\
+respt = 0.153 \\ $
+
+34.- Un nueva producto va a salir al mercado si por lo menos el $ P_{0}(100\%)$ de n personas encuestadas aceptan el producto. Calcular los valores de n  p0 de manera que haya una probabilidad de 0.1112 de que el producto no saldra a mercado cuando realmente el 58\% lo aceptan y una probabilidad de 0.0228 de que le producto saldra al mercado cuando realmente el 50\% loaceptan.\\
+\\
+SOLUCION: \\
+
+$ P(p \leqslant / p_{0} = 0.58) = 0.1112 \\
+P(p > P_{0} = 0.5) = 0.028 \\ 
+P(\dfrac{P-p}{\sqrt{\dfrac{pq}{n}}}\leqslant \dfrac{P - 0.58}{\sqrt{\dfrac{(0.58)(0.42)}{n}}}) = 0.1112 \\
+P(Z\leqslant A) = 0.1112 \\
+Z = -1.22 \\
+P_{0} - 0.5 = \dfrac{0.5}{\sqrt{n}} ...... 2 \\
+P_{0} - 0.58 = -0.60/\sqrt{n} \\
+0.08 = \dfrac{1.60}{n} \\
+\\
+n= 400\\
+P_{0} = 0.55 $
+
+
+\end{document}
