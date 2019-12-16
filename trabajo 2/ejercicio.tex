@@ -1,0 +1,632 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage[top=2.00cm, bottom=2.00cm]{geometry}
+\begin{document}
+\bfseries \centering "UNIVERSIDAD NACIONAL SAN CRISTOBAL\\
+\bfseries \centering DE HUAMANGA"\\
+\bfseries \centering "FACULTAD DE INGENIERÍA DE MINAS, GEOLOGÍA"\\
+\bfseries \centering Y CIVIL"\\
+\bfseries \centering "ESCUELA PROFESIONAL DE INGENIERÍA\\
+\bfseries \centering DE SISTEMAS"\\
+\begin{figure}[h!]
+	\centering \includegraphics{unsch}
+\end{figure}
+\bfseries \centering INFORME 01\\[0.3cm]
+\begin{flushleft}
+	DOCENTE: ROMERO PLASENCIA, Jackson
+\end{flushleft} 
+\begin{flushleft}
+	CURSO: ESTADISTICA 2
+\end{flushleft}
+\begin{flushleft}
+	ESTUDIANTES:
+\end{flushleft}
+BONILLA OCHOA, Edward\\
+CONTRERAS MORENO, Luis\\
+HUARACA CCAHUIN, Rudy Ivan\\
+HUARACA HUARHUACHI,Marco Antonio\\
+RUA SULCA, Kevin\\[5cm]
+
+AYACUCHO-PERU\\
+2019
+	
+\newpage
+\begin{flushleft}
+
+1.Un taller tiene empleados. Los salarios diarios en dolares de cada uno de ellos son 5,7,8,10,10\\
+\textbf{a) Determinar la media y la varianza de la poblacion.}
+
+\begin{tabular}{|p{0.8in}|p{0.8in}|p{0.8in}|p{0.8in}|p{0.8in}|} \hline 
+	${\boldsymbol{\mathrm{x}}}_{\boldsymbol{\mathrm{i}}}$\textbf{} & 5 & 7 & 8 & 10 \\ \hline 
+	$\boldsymbol{P}\left({\boldsymbol{x}}_{\boldsymbol{i}}\boldsymbol{-}{\boldsymbol{x}}_{\boldsymbol{i}}\right)$\textbf{} & 1/5 & 1/5 & 1/5 & 1/5 \\ \hline 
+\end{tabular}
+
+
+\[\mu =\sum^4_{i=1}{x_i}\ P\left(x_i-x_i\right)=5*\left(\frac{1}{5}\right)+7*\left(\frac{1}{5}\right)+8*\left(\frac{1}{5}\right)+10*\left(\frac{2}{5}\right)\] 
+
+
+\[\mu =\frac{40}{5}=8\] 
+\[{\sigma }^2=\sum^N_{i=1}{{x_i}^2}\ p\left(x_i=x_i\right)-{\mu }^2\] 
+\[{\sigma }^2=5^2*\left(\frac{1}{5}\right)+7^2*\left(\frac{1}{5}\right)+8^2*\left(\frac{1}{5}\right)+{10}^2*\left(\frac{2}{5}\right)-8^2\] 
+\[{\sigma }^2=67.6=64=3.6\] 
+
+
+\noindent \textbf{b) Muestras}
+
+5.7   5.8   5.10   5.10
+
+7.5     7.8   7.10   7.10
+
+8.5   8.7   8.10   8.10
+
+10.5   10.7   10.8   10.10
+
+10.5   10.7   10.8   10.10
+
+\noindent \textbf{Promedio de las Muestras}
+
+6     6.5   7.5   7.5
+
+6    7.5   8.5   8.5
+
+6.5   7.5   9  9
+
+7.5   8.5  9 10
+
+7.5   8.5  9   10
+
+\noindent \eject 
+
+\begin{tabular}{|p{0.6in}|p{0.6in}|p{0.6in}|p{0.6in}|p{0.6in}|p{0.6in}|p{0.6in}|} \hline 
+	$\overline{\boldsymbol{x}}$\textbf{} & 6 & 6.5 & 7.5 & 8.5 & 9 & 10 \\ \hline 
+	\textbf{P( }$\overline{\boldsymbol{x}}$\textbf{ )} & 2/20 & 2/20 & 6/20 & 4/20 & 4/20 & 2/20 \\ \hline 
+\end{tabular}
+
+
+
+\noindent \\[0.4cm]
+
+\noindent \textbf{c)}
+\[{\mu }_{\overline{x}}=\ \sum{\overline{x}}*p\left(\overline{x}\right)=6*\left(\frac{2}{20}\right)+6.5*\left(\frac{2}{20}\right)+7.5\left(\frac{6}{20}\right)+8.5*\left(\frac{4}{20}\right)+9*\left(\frac{4}{20}\right)+10*\left(\frac{2}{20}\right)\] 
+\[{\mu }_{\overline{x}}=\frac{160}{20}=8\] 
+\[{{\sigma }^2}_{\overline{x}}=\sum{{\overline{x}}^2}*p\left(\overline{x}\right)-{\mu }^2=6^2*\left(\frac{2}{20}\right)+{6.5}^2*\left(\frac{2}{20}\right)+{7.5}^2*\left(\frac{6}{20}\right)+{8.5}^2*\left(\frac{4}{20}\right)+9^2*\left(\frac{4}{20}\right)+{10}^2*\left(\frac{2}{20}\right)-8^2\] 
+\[{{\sigma }^2}_{\overline{x}}=\frac{1307}{20}-8^2=1.35\] 
+\textbf{d)}
+
+\noindent Poblaci\'{o}n Muestra
+\[{\mu }_x=8  {\mu }_{\overline{x}}=8\] 
+\[{{\sigma }^2}_x=3.6  {{\sigma }^2}_{\overline{x}}=1.35\] 
+Como se aprecia, la muestra presenta una menor dispersi\'{o}n.\\
+
+\[x_1\sim N\left(12,4\right)\ \ \ x_2\sim N\left(15,4\right)\ \ \ \ \ \ \ \ \ \ \ \ \ \] 
+
+
+
+4) Una compañia agroindustrial ha logrado establecer el siguiente modelo de probabilidad discreta de  sueldos (X) en cientos de dolares de su personal:\\
+si de esa poblacion de sueldos se toma 30 sueldos al azar:\\
+a) Halle la media y la varianza de la media muestral.\\
+
+b) Calcule la probabilidad de que la media muestral este entre 260 y 330 dolares.\\
+Solucion:\\
+a) \mu = 3  \\
+\sigma^{2} = 1*0.1 + 4*0.2 + 9*0.4 + 16*0.2 + 25*0.1 - 9 \\
+\sigma^{2} = 1.2 \\
+\sigma = 1,0954 \\
+Densiadd muestral = 1.0954/\sqrt{30} = 0.04 \\
+
+b)p(2.60\leqslant X \leqslant 3.30) => p(2.6-3/0.199 \leqslant Z \leqslant 3.3 - 3/0.199)\\
+p(2.60\leqslant X \leqslant 3.30) = 0.911 \\[0.5cm]
+
+5) \begin{justify}
+	\textbf{5}.-\ La\ demanda diaria dc un producto puede ser 0, I, 2, 3, 4 con probabilidades respectivas   0.3, 0.3, 0.2, 0.1, 0.1. 
+\end{justify}\par
+
+\begin{justify}
+	a) Describa la distribución de probabilidades aproximada de la demanda promedio de 36 días. b) Calcular la probabilidad de que la media de la demanda de 36 días esté entre 1 y 2 inclusive.
+\end{justify}\par
+
+\textbf{Solución:}\par
+
+X:$"$  Demanda diaria de un producto$"$ \par
+
+
+
+
+
+\vspace{\baselineskip}
+\begin{enumerate}
+	\item n=36\par
+	
+	\[  \]  \[ u_{x}=E \left( x \right) = \sum _{}^{}xp \left( x \right) =0 \left( 0.3 \right) +1 \left( 0.3 \right) +2 \left( 0.2 \right) +3 \left( 0.1 \right) +4 \left( 0.1 \right)  \] \par
+	
+	\[  \]  \[ u_{x}=1.4 \] \par
+	
+	
+	\vspace{\baselineskip}
+	\[  \]  \[ E \left( x^{2} \right) = \sum _{}^{}x^{2}p \left( x \right) =0^{2} \left( 0.3 \right) +1^{2} \left( 0.3 \right) +2^{2} \left( 0.2 \right) +3^{2} \left( 0.1 \right) +4^{2} \left( 0.1 \right)  \] \par
+	
+	\[  \]  \[ E \left( x^{2} \right) =3.6 \] \par
+	
+	
+	\vspace{\baselineskip}
+	\[  \]  \[ VAR \left( x \right) =E \left( x^{2} \right) - u^{2} \] \par
+	
+	\[  \]  \[  \sigma _{x}^{2}=3.6-1.4^{2} \] \par
+	
+	\[  \]  \[  \sigma _{x}=0.045 \] \par
+	
+	
+	\vspace{\baselineskip}
+	\( x \sim  \) N (1.4,  \( \frac{1.64}{3.6 \right) } \) \par
+	
+	
+	\vspace{\baselineskip}
+	\item P ( \( 1 \leq x \leq 2 \) )= \(   \varnothing  \left( \frac{2-1.4}{0.21343} \right) - \varnothing  \left( \frac{1-1.4}{0.21343} \right)  \) 
+\end{enumerate}\par
+
+\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \  = \(  \varnothing  \left( 2.81 \right) - \varnothing  \left( -1.87 \right)  \) \par
+
+\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \  = \(  \varnothing  \left( 2.81 \right) - \left[ 1- \varnothing  \left( 1.87 \right)  \right]  \) \par
+
+\tabto{1.48in} =0.9668\par
+
+
+\vspace{\baselineskip}
+\vspace{\baselineskip}
+\vspace{\baselineskip}
+\vspace{\baselineskip}
+
+6) Una empresa comercializadora de café sabe que el consumo mensual de café por casa (en kilos) está normalmente distribuida con media desconocida la y desviación estándar igual a 0.3. Si se registra el consumo de café durante un mes de 36 hogares escogidos al azar, ¿cuál es la probabilidad de que la media del consumo esté entre los valores n. u— 0.1 y u+ 0.1?
+
+\vspace{\baselineskip}\begin{multicols}{2}
+	X:$"$  utilidad en miles de soles $``$\par
+	
+	\( x \rightarrow  \) N (u, \(   \sigma _{x}^{2} \) )\ \ \ \ \ \  n=16\par
+	
+	
+	\vspace{\baselineskip}
+	\begin{itemize}
+		\item P ( \( x<6.71 \) )=0.05\par
+		
+		\(  \varnothing  \left( \frac{6.71-u}{ \sigma _{x}} \right)  \) =0.05\par
+		
+		\[  \]  \[ \frac{6.71-u}{ \sigma _{x}}=-1.645 \] \par
+		
+		\[  \]  \[ \frac{u-6.71}{1.645}= \sigma _{x} \ldots 1 \] \par
+		
+		\item P ( \( x>6.71 \) )=0.01
+	\end{itemize}\par
+	
+	
+	\vspace{\baselineskip} \[  \]  \[ 1- \varnothing  \left( \frac{14.66-u}{ \sigma _{x}} \right) =0.01 \] \par
+	
+	\[  \]  \[ \frac{14.66-u}{ \sigma _{x}}=2.33 \] \par
+	
+	\[  \]  \[ \frac{14.66-u}{2.33}= \sigma _{x} \ldots 2 \] \par
+	
+	\[  \]  \[ igualando 1 y 2 \] \par
+	
+	\[  \]  \[ u=10 \] \par
+	
+	\[  \]  \[  \sigma _{x}=2 \] \par
+	
+	
+	\vspace{\baselineskip}\begin{itemize}
+		\item  \( P \left( 10 \leq x \leq 11 \right) = \)   \(  \varnothing  \left( \frac{11-10}{2/4} \right) - \varnothing  \left( \frac{10-10}{2/4} \right)  \) 
+	\end{itemize}\par
+	
+	\tabto{1.48in} \tab \ \ \ \   \( = \varnothing  \left( 2 \right) - \varnothing  \left( 0 \right)  \) \par
+	
+	\tabto{1.48in} \tab \ \ \ \ \  =0.9972-0.5\par
+	
+	\tabto{1.48in} \tab \ \ \ \ \  =0.4772\par
+	
+	
+\end{multicols}
+
+\vspace{\baselineskip}
+
+8) La vida util en miles de horas de una bateria es una variable aleatoreaa X con funcion de densidad:\\
+$ f(x) = \left \{ \begin{matrix} 2-2x & \mbox{0<= x <= 1 }
+\\0 & \mbox{en el resto }\end{matrix}\right. $\\
+Con que probabilidad $X_{36}$ es mayor que 420 horas?.\\
+
+Solucion:\\
+$ [2x -x^{2} \vert^{1}_{0}] = 2 - 1 = 1 \\
+E(x) = \mu \\
+VAR(X_{i} = \sigma^{2} \\
+\mu = E(x)=  \displaystyle\int_{0}^{1} x(2-2x)\, dx \\
+= 1 - 2/3 = 0.33 \\ 
+\sigma^{2} = var(x) E(x^{2}) - (E(x))_{2} = 1/6 - 1/9 = 1/18 \\
+p(Z)= 1-p(Z<a)\\ 
+= 1-0.98645 = 0.006 \\ $	
+\end{flushleft}
+
+9) \begin{justify}
+	Sea  \( x \) \textsubscript{40} la media de la muestra aleatoria x\textsubscript{1},x\textsubscript{2},$ \ldots $ x\textsubscript{40 }de tamaño n=40 escogida de una población X cuya distribución es geométrica con función de probabilidad:
+\end{justify}\par
+
+\begin{justify}
+	\( f \left( x \right) =\frac{1}{5} \left( \frac{4}{5} \right) ^{x-1}, x=1,2, \ldots  \) \textsubscript{\  }
+\end{justify}\par
+
+\begin{justify}
+	Halle la probabilidad de que la media muestral difiera de la media poblacional en a lo mas el 10$\%$  del valor de la varianza de la población.
+\end{justify}\par
+
+\begin{justify}
+	\[  \]  \[ f \left( x \right) =p \left( 1-p \right) ^{x-1};x=1.2 \ldots  \] 
+\end{justify}\par
+
+\begin{justify}
+	\[  \]  \[  \Omega = \left\{ c,sc,ssc,ssc, \ldots  \right}  \] 
+\end{justify}\par
+
+\begin{justify}
+\[  \]  \[ p \left( ⃓x- \mu ⃓ \leq 0.10 \sigma  \right)  \] 
+\end{justify}\par
+
+\begin{justify}
+\[  \]  \[ E \left( x \right) = \sum _{x=1}^{ \alpha }xp \left( 1-p \right) ^{x-1}= \sum _{x=1}^{ \alpha }\frac{ \partial }{ \partial x} \left( 1-p \right) ^{x}.p=\frac{ \partial }{ \partial x}  \sum _{x=1}^{ \alpha }\frac{ \left( 1-p \right) ^{x}}{q+q^{2}+q^{3}+ \ldots .}.p \] 
+\end{justify}\par
+
+\begin{justify}
+\[  \]  \[ = \sum _{x=1}^{ \alpha }ar^{n}=\frac{a}{1-r}= \sum _{k=m}^{n}a^{k}=\frac{a^{m}-a^{n+1}}{1-a} \] 
+\end{justify}\par
+
+\begin{justify}
+\[  \]  \[ p\frac{ \partial }{ \partial x} \left[  \sum _{x=1}^{ \alpha }\frac{ \partial }{ \partial x}q^{x} \right] =p\frac{ \partial }{ \partial x} \left[  \sum _{x=1}^{ \alpha }\frac{ \partial }{ \partial x}q^{x}-1 \right]  \] 
+\end{justify}\par
+
+\begin{justify}
+\[  \]  \[ p \left( q+q^{2}+q^{3}+ \ldots  \right)  \] 
+\end{justify}\par
+
+\begin{justify}
+\[  \]  \[ pq \left( 1+q^{2}+q^{3}+ \ldots  \right)  \] 
+\end{justify}\par
+
+\begin{justify}
+\[  \]  \[ pq \left( \frac{1-q^{2}}{1-q} \right)  \] 
+\end{justify}\par
+
+\begin{justify}
+=0.9954
+\end{justify}\par
+
+
+10) \begin{justify}
+	El tiempo de vida de una batería es una variable aleatoria X con distribución exponencial de parámetro : \( \frac{1}{ \theta }.  \) Se escoge una muestra de n baterias.
+\end{justify}\par
+
+\begin{enumerate}
+	\item Halle el error estándar de la media muestral  \( x \) \par
+	
+	\item Si la muestra aletoria es de tamaño n=64, Con que probabilidad diferirá  \( x \)  del verdadero valor de  \(  \theta  \)  en menos de un error estándar?.\par
+	
+	\item Que tamaño de muestra mínimo seria necesario para que la media muestral  \( x \)  tenga un error estándar menor a un 5$\%$  del valor de la vida real de  \(  \theta  \) ?.\par
+	
+	\item Asumiendo muestra grande, que tamaño de muestra seria necesario para que  \( x \)  difiera de  \(  \theta  \) \ eb  menos del 10$\%$  de  \(  \theta  \)  con 95$\%$  de probabilidad?.
+\end{enumerate}\par
+
+\vspace{\baselineskip}
+\vspace{\baselineskip}
+\vspace{\baselineskip}\begin{justify}
+	X: tiempo de vida
+\end{justify}\par
+
+\begin{justify}
+	\[  \]  \[ f \left( x \right) =\frac{1}{ \sigma }e^{-\frac{x}{ \sigma }};x \geq 0 \] 
+\end{justify}\par
+
+\begin{justify}
+	\[  \]  \[ a \right)  \sqrt[]{var \left( x \right) }=\frac{ \sigma }{\sqrt[]{n}}~ error estandar \] 
+\end{justify}\par
+
+\begin{justify}
+	\[  \]  \[ var \left( x \right) =\frac{ \sigma ^{2}}{n} \] 
+\end{justify}\par
+
+\begin{justify}
+	\[  \]  \[  \mu = \int _{0}^{ \alpha }\frac{x}{ \sigma }e^{-\frac{x}{ \sigma }} .d \left( x \vert  \mu =x \frac{x}{ \sigma };dv=e dx \] 
+\end{justify}\par
+
+\begin{justify}
+	\[  \]  \[  \sigma  \left(  \alpha  \right) = \int _{0}^{ \alpha }y^{ \alpha -1}e^{-y}dy= \left(  \alpha -1 \right) ; \alpha  \epsilon N \mu =E \left( x \right) = \int _{0}^{1}x \left( 2-2x \right) dx=1 \] 
+\end{justify}\par
+
+\begin{justify}
+	\[  \]  \[  \sigma  \left(  \alpha  \right) = \left(  \alpha -1 \right)  \sigma  \left(  \alpha -1 \right)  \] 
+\end{justify}\par
+
+\begin{justify}
+	\[  \]  \[ E \left( x \right) = \sigma  \int _{0}^{ \alpha } \left( \frac{x}{ \sigma } \right) ^{2-1}e^{-\frac{x}{ \sigma }} d \left( \frac{x}{ \sigma } \right)  \] 
+\end{justify}\par
+
+\begin{justify}
+	\[  \]  \[  \sigma  \left( 2 \right) = \left( 2-1 \right) !=1 \] 
+\end{justify}\par
+
+\begin{justify}
+	\[  \]  \[ E \left( x^{2} \right) = \sigma  \int _{0}^{ \alpha } \left( \frac{x}{ \sigma } \right) ^{3-1}ed \left( \frac{x}{ \sigma } \right) = \mu  \left( 3 \right) =2!=2 \] 
+\end{justify}\par
+
+\begin{justify}
+	Rpta.  \( \frac{ \theta }{ \left( n \right) ^{\frac{1}{2}}} \) 
+\end{justify}\par
+
+
+\vspace{\baselineskip}
+\vspace{\baselineskip}
+
+\begin{flushleft}
+	
+	12) La vida útil de cierta marca de llantas radiales es una variable aleatoria X cuya distribución es normal con (i = 38,000 Km. y c = 3,000 Km. a) Si la utilidad Y (en $\$$ ) que produce cada llanta está dada por la relación: Y = 0.2X +100, ¿cuál es la probabilidad de que la utilidad sea mayor que 8,900$\$$ ? b) Determinar el número de tales llantas que debe adquirir una empresa de transporte para conseguir una utilidad promedio de al menos $\$$ 7541 con probabilidad 0.996
+	
+	\textbf{Solución:}\par
+	
+	
+	\vspace{\baselineskip}
+	\begin{multicols}{2}
+		\( x \rightarrow  \) N (3800,3000)\par
+		
+		a) utilidad en  \( \$ \) = \(  y \) \  \ \ \   \( y=0.2x+100 \) \ \ \ \ \  \par
+		
+		\( E \left( y \right) =0.2E \left( x \right) +100 \) \ \ \ \ \  \par
+		
+		\( E \left( y \right) =0.2 \left( 3800 \right) +100 \) \ \ \ \ \  \par
+		
+		\[  \]  \[ E \left( y \right) =7700 \] \par
+		
+		\[  \]  \[ var \left( y \right) =0.2^{2}var \left( x \right)  \] \par
+		
+		\   \(  \sigma _{y}=0.2 \sigma _{x}=0.2 \left( 3000 \right)  \) =600\par
+		
+		P ( \( y>8.900 \) )=1- \(  \varnothing  \left( \frac{8900-7700}{600} \right)  \) \par
+		
+		\ \ \ \ \ \ \ \ \ \ \  =1- \(  \varnothing  \left( 2 \right)  \) \par
+		
+		\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \  =1-0.9772\par
+		
+		\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \  =0.0228\par
+		
+		
+		\vspace{\baselineskip}\begin{enumerate}
+			\item P ( \( y>7541 \) )
+		\end{enumerate}\par
+		
+		\ \   \( E \left( y \right) =0.2E \left( x \right) +100 \) \ \  \par
+		
+		\( ~~ E \left( y \right) =0.2 \left( 3800 \right) +100 \) \ \  \par
+		
+		
+		\vspace{\baselineskip} \[  \]  \[ ~ var \left( y \right) =\frac{ \sigma _{x}^{2}}{n} \] \par
+		
+		\[  \]  \[  \sigma _{y}=\frac{600}{\sqrt[]{n}} \] \par
+		
+		P ( \( y>7541 \) )=1- \(  \varnothing  \left( \frac{7541-7700}{\frac{600}{\sqrt[]{n}}} \right)  \) \par
+		
+		
+		\vspace{\baselineskip} \tabto{1.48in} 0.996=1- \(  \varnothing  \left( \frac{7541-7700}{\frac{600}{\sqrt[]{n}}} \right)  \) \par
+		
+		\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \   \(  \varnothing  \left( 2.65 \right)  \) = \(  \varnothing  \left( \frac{7541-7700}{\frac{600}{\sqrt[]{n}}} \right)  \) \par
+		
+		\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \  2.65= \( \frac{7541-7700}{\frac{600}{\sqrt[]{n}}} \) \par
+		
+		\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \  n=100\par
+		
+		
+		\vspace{\baselineskip}
+	\end{multicols}
+	
+	\vspace{\baselineskip}
+	\vspace{\baselineskip}\begin{justify}
+		
+	13) Un proceso automático llena bolsa de café cuyo peso neto tiene una media de 250 gramos y una desviación estándar de 3 gramos. Para controlar el proceso, cada hora se pesan 36 de tales bolsas de café escogidas al azar. Si el peso neto medio esta entre 249 y 251 gramos se continúa con el proceso aceptando que el peso neto medio real es 250 gramos y en caso contrario, se detiene el proceso para reajustar la máquina.
+	
+	\begin{justify}
+		a) ¿Cuál es la probabilidad de detener el proceso cuando el peso neto medio realmente es 250?
+	\end{justify}\par
+	
+	\begin{justify}
+		b) ¿Cuál es la probabilidad de aceptar que el peso neto promedio es 250 cuando realmente es de 248 gramos?
+	\end{justify}\par
+	
+	\begin{justify}
+		\textbf{Solución}
+	\end{justify}\par
+	
+	\begin{justify}
+		Sea \textit{X:} peso neto medio de café, X $ \sim $  N \(  \left( 250,3^{2} \right)  \)  
+	\end{justify}\par
+	
+	\begin{justify}
+		a)\  P \(  \left[ x \leq 249 ˅ x \geq 251 \right]  \) =P \(  \left[ x \leq 249 ˅ x \geq 251 \right]  \) 
+	\end{justify}\par
+	
+	\begin{justify}
+		=P \(  \left[ z \leq \frac{249-250}{\frac{3}{\sqrt[]{3}}} ˅ z \geq \frac{251-250}{\frac{3}{\sqrt[]{3}}}  \right]  \) 
+	\end{justify}\par
+	
+	\begin{justify}
+		=P \(  \left[ z \leq -2 ˅  z \geq 2 \right]  \) 
+	\end{justify}\par
+	
+	\begin{justify}
+		= \( 1-P \left[ -2 \leq z \geq z \right]  \) 
+	\end{justify}\par
+	
+	\begin{justify}
+		= \( 1- \left[ 1-2P \left( z \leq -2 \right)  \right]  \) 
+	\end{justify}\par
+	
+	\begin{justify}
+		= \( 2P \left( z \leq -2 \right)  \) 
+	\end{justify}\par
+	
+	\begin{justify}
+		= \( 2 \left( 0,0228 \right)  \) 
+	\end{justify}\par
+	
+	\begin{justify}
+		=0,0456
+	\end{justify}\par
+	
+	
+	\vspace{\baselineskip}\begin{justify}
+		b)\  P \(  \left( x \leq \frac{250}{ \mu }=248 \right) =P \left( \frac{x- \mu }{\frac{5}{\sqrt[]{n}}} \leq \frac{250-248}{\frac{3}{\sqrt[]{36}}} \right)  \) 
+	\end{justify}\par
+	
+	\begin{adjustwidth}{1.67in}{0.0in}
+		\begin{justify}
+			=P \(  \left( z \leq 4 \right)  \) 
+		\end{justify}\par
+		
+	\end{adjustwidth}
+	
+	\begin{adjustwidth}{1.67in}{0.0in}
+		\begin{justify}
+			=1
+		\end{justify}\par
+		
+	\end{adjustwidth}
+
+14) \vspace{\baselineskip}\begin{justify}
+	\textbf{14}.- La utilidad (en miles dc soles) por la venta de cierto artículo, es una variable aleatoria con distribución normal. Se estima que en el 5$\%$  de las ventas las utilidades serían menos de 6.71, mientras que el 1$\%$  de las ventas serían mayores que 14.66. Si se realizan 16 operaciones de ventas, ¿cuál es la probabilidad de que el promedio de la utilidad por cada operación esté entre $\$$ 10.000 y $\$$ 11,000?
+\end{justify}\par
+
+\textbf{Solución:}\par
+
+
+\vspace{\baselineskip}\begin{multicols}{2}
+	X:$"$  utilidad en miles de soles $``$\par
+	
+	\( x \rightarrow  \) N (u, \(   \sigma _{x}^{2} \) )\ \ \ \ \ \  n=16\par
+	
+	
+	\vspace{\baselineskip}
+	\begin{itemize}
+		\item P ( \( x<6.71 \) )=0.05\par
+		
+		\(  \varnothing  \left( \frac{6.71-u}{ \sigma _{x}} \right)  \) =0.05\par
+		
+		\[  \]  \[ \frac{6.71-u}{ \sigma _{x}}=-1.645 \] \par
+		
+		\[  \]  \[ \frac{u-6.71}{1.645}= \sigma _{x} \ldots 1 \] \par
+		
+		\item P ( \( x>6.71 \) )=0.01
+	\end{itemize}\par
+	
+	
+	\vspace{\baselineskip} \[  \]  \[ 1- \varnothing  \left( \frac{14.66-u}{ \sigma _{x}} \right) =0.01 \] \par
+	
+	\[  \]  \[ \frac{14.66-u}{ \sigma _{x}}=2.33 \] \par
+	
+	\[  \]  \[ \frac{14.66-u}{2.33}= \sigma _{x} \ldots 2 \] \par
+	
+	\[  \]  \[ igualando 1 y 2 \] \par
+	
+	\[  \]  \[ u=10 \] \par
+	
+	\[  \]  \[  \sigma _{x}=2 \] \par
+	
+	
+	\vspace{\baselineskip}\begin{itemize}
+		\item  \( P \left( 10 \leq x \leq 11 \right) = \)   \(  \varnothing  \left( \frac{11-10}{2/4} \right) - \varnothing  \left( \frac{10-10}{2/4} \right)  \) 
+	\end{itemize}\par
+	
+	\tabto{1.48in} \tab \ \ \ \   \( = \varnothing  \left( 2 \right) - \varnothing  \left( 0 \right)  \) \par
+	
+	\tabto{1.48in} \tab \ \ \ \ \  =0.9972-0.5\par
+	
+	\tabto{1.48in} \tab \ \ \ \ \  =0.4772\par
+	
+	
+\end{multicols}
+
+\vspace{\baselineskip}
+
+%%%%%%%%%%%%  Starting New Page here %%%%%%%%%%%%%%
+
+\newpage
+
+\vspace{\baselineskip}\begin{justify}
+
+	16)En cierta población de matrimonios el peso en kilogramos de las esposas y los esposos se distribuyen normalmente N(80,100) y N(64,69) respectivamente y son independientes. Si se eligen 25 matrimonios al azar de esta poblacion.Calcular la probabilidad de que la media de los pesos sea a lo mas 137.  \\
+	DATOS:
+	
+	n=25
+	
+	Esposos  N(80,100)  \mu_{1}=80, \sigma_{1}=100   \\
+	
+	Esposas  N(64,69)   \mu_{2}=64, \sigma_{2}=69   \\
+	
+	a) creamos una variable Y con la cual obtendremos la media muestral y la varianza. \\
+	
+	Y= \dfrac{X-\mu{3}}{_\frac{\sigma_{3}}{\sqrt{n}}}\\
+	
+	\mu_{3}= \mu_{1} + \mu_{2} = 144 \\
+	
+	\sigma_{3}= \sigma_{1} + \sigma_{2} =169\\
+	
+	b) P(x \leq 137) \\[0.2cm]
+	
+	si  Z=\dfrac{X-\mu}{\sigma\sqrt{n}} \\
+	
+	P (\dfrac{X-\mu}{\frac{\sigma}{\sqrt{n}}} \leqslant\dfrac{137-144}{\dfrac{13}{5}})
+	
+	P(Z\leq -2.68)\\
+	Z=0.00368\\
+	
+
+17) Una empresa vende bloques de mármol cuyo peso se distribuye normalmente con una media de 200kg.\\
+a)Calcule la varianza del peso de los bloques si la probabilidad de que el peso este entre 167kg y 235kg es 0.9876.\\[0.3cm]
+
+b)Que tan grande debe ser la muestra para que haya una probabilidad de o.9938 de que el peso medio de la muestra sea inferior a 205kg.\\
+
+La duración en horas de una marca de tarjetas electrónicas se distribuye exponencialmente con un promedio de 1000 horas.
+
+\textbf{Solución:}\par
+
+
+\vspace{\baselineskip}\begin{multicols}{2}
+	X:$"$  peso en kg de mármol$"$ \par
+	
+	\( x \rightarrow  \) N (200, \(   \sigma _{x}^{2} \) )\par
+	
+	
+	\vspace{\baselineskip}
+	\( P \left( 165 \leq x \leq 235 \) )=0.9876\ \ \ \  \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \  0.9876= \(  \varnothing  \left( \frac{235-200}{ \sigma _{x}} \right) - \varnothing  \left( \frac{165-200}{ \sigma _{x}} \right)  \) \par
+	
+	0.9876=  \(  \varnothing  \left( \frac{35}{ \sigma _{x}} \right) - \varnothing  \left( \frac{-35}{ \sigma _{x}} \right)  \) \par
+	
+	\tabto{0.49in} \ \ \ \ \ \  0.9876=2 \(  \varnothing  \left( \frac{35}{ \sigma _{x}} \right) -1 \) \par
+	
+	1.9876=2 \(  \varnothing  \left( \frac{35}{ \sigma _{x}} \right)  \) \par
+	
+	2.5= \( \frac{35}{ \sigma _{x}} \) \ \ \ \   \(  \sigma _{x}=14~~~~  \sigma _{x}^{2}=196 \) \par
+	
+	\( P \left( x \leq 205 \) ) = 0.9938 \( = \varnothing  \left( \frac{205-200}{\frac{14}{\sqrt[]{n}}} \right)  \) \par
+	
+	\tabto{1.61in}  \( 2.5=\frac{5\sqrt[]{n}}{14} \) \par
+	
+	\tabto{1.61in}  \(  n=49 \) \par
+	
+	
+\end{multicols}
+
+
+\end{flushleft}
+	
+
+
+
+ 
+ 
+
+\end{document}
